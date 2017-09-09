@@ -1,6 +1,6 @@
 import {Crawer} from "./crawer";
 import {readFileSync} from "fs";
-import * as pack from '../package';
+import * as pack from '../package.json';
 import * as program from 'commander';
 
 program.version(pack["version"])
