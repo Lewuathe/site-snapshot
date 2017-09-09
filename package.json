@@ -1,6 +1,6 @@
 {
   "name": "site-snapshot",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Create a screenshot of web page in PDF",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
