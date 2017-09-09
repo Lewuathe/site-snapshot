@@ -34,6 +34,8 @@ export class Crawer {
   if (selectors.length == 0) {
    return;
   }
+
+	// TODO: Handle multiple chid selectors.
   let items: [string] = await page.evaluate((sel) => {
    let ret = [];
    for (let item of document.querySelectorAll(sel)) {
