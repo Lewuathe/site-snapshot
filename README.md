@@ -1,7 +1,9 @@
-site-snapshot
+site-snapshot [![npm](https://img.shields.io/npm/v/site-snapshot.svg)]()
 ===
 
 site-snapshot is a tool to capture the webpage while crawling specified links of the page.
+
+[![NPM](https://nodei.co/npm/site-snapshot.png)](https://nodei.co/npm/site-snapshot/)
 
 # Install
 
