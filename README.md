@@ -50,6 +50,20 @@ With this file, site-snapshot tries to crawl recursively.
 1. Capture root page
 2. Capture child pages specified by selector in children object
 
+Snapshot is created in `index` directory in this case.
+
+```
+$ tree index
+index
+├── index.html.pdf
+└── menu
+    ├── menu-about.pdf
+    ├── menu-contact.pdf
+    └── menu-writing.pdf
+
+1 directory, 4 files
+```
+
 
 # License
 
