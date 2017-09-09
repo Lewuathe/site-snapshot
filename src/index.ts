@@ -1,8 +1,9 @@
 import {Crawer} from "./crawer";
 import {readFileSync} from "fs";
+import * as pack from '../package';
 import * as program from 'commander';
 
-program.version("0.0.1")
+program.version(pack["version"])
 	.option('-s, --sitefile [sitefile]', "The path to site.json file", (val) => val.toString())
 	.parse(process.argv);
 
