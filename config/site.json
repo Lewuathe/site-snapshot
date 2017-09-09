@@ -1,0 +1,12 @@
+{
+	"name": "index",
+	"selector": null,
+	"baseUrl": "http://www.lewuathe.com",
+	"children": [
+		{
+			"name": "menu",
+			"selector": ".element",
+			"children": []
+		}
+	]
+}
